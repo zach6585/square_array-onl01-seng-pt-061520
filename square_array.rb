@@ -7,5 +7,5 @@ def square_array(array)
 end
 
 def adv_square_array(array)
-  array.
+  array.collect{|num| num*num}
 end
